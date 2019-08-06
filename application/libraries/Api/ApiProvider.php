@@ -18,7 +18,8 @@ class ApiProvider
         $this->price = $price;
     }
 
-    public function getPrice() {
+    public function getPrice()
+    {
         return $this->price;
     }
 

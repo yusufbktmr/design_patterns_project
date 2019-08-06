@@ -12,13 +12,13 @@ class Logger
 
     public function log(string $str)
     {
-        $message = date('Y-m-d H:i:s') .' : ' . $str . "\n";
+        $message = date('Y-m-d H:i:s') . ' : ' . $str . "\n";
         $this->write_log($message);
     }
 
     public function cli_log(string $str)
     {
-        $message = date('Y-m-d H:i:s') .' : ' . $str . "\n";
+        $message = date('Y-m-d H:i:s') . ' : ' . $str . "\n";
         $this->write_log($message);
         echo $message;
 

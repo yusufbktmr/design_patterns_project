@@ -104,3 +104,9 @@
 2019-08-06 17:42:44 : End get data in http://www.mocky.io/v2/5a74524e2d0000430bfe0fa3
 2019-08-06 17:42:44 : Start Comparison Datas
 2019-08-06 17:42:44 : End Comparison Datas
+2019-08-06 21:32:25 : Start get data in http://www.mocky.io/v2/5a74519d2d0000430bfe0fa0
+2019-08-06 21:32:26 : End get data in http://www.mocky.io/v2/5a74519d2d0000430bfe0fa0
+2019-08-06 21:32:26 : Start get data in http://www.mocky.io/v2/5a74524e2d0000430bfe0fa3
+2019-08-06 21:32:26 : End get data in http://www.mocky.io/v2/5a74524e2d0000430bfe0fa3
+2019-08-06 21:32:26 : Start Comparison Datas
+2019-08-06 21:32:26 : End Comparison Datas
