@@ -1,0 +1,12 @@
+2019-08-06 05:54:31 : Start get data in http://www.mocky.io/v2/5a74519d2d0000430bfe0fa0
+2019-08-06 05:54:31 : End get data in http://www.mocky.io/v2/5a74519d2d0000430bfe0fa0
+2019-08-06 05:54:31 : Start get data in http://www.mocky.io/v2/5a74524e2d0000430bfe0fa3
+2019-08-06 05:54:31 : End get data in http://www.mocky.io/v2/5a74524e2d0000430bfe0fa3
+2019-08-06 05:54:31 : Start Comparison Datas
+2019-08-06 05:54:31 : End Comparison Datas
+2019-08-06 05:54:58 : Start get data in http://www.mocky.io/v2/5a74519d2d0000430bfe0fa0
+2019-08-06 05:54:58 : End get data in http://www.mocky.io/v2/5a74519d2d0000430bfe0fa0
+2019-08-06 05:54:58 : Start get data in http://www.mocky.io/v2/5a74524e2d0000430bfe0fa3
+2019-08-06 05:54:58 : End get data in http://www.mocky.io/v2/5a74524e2d0000430bfe0fa3
+2019-08-06 05:54:58 : Start Comparison Datas
+2019-08-06 05:54:58 : End Comparison Datas
