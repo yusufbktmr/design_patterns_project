@@ -14,7 +14,7 @@ use Application\Libraries\Api\Logger;
 
 class GetData extends CI_Controller {
 
-	/**
+    /**
 	 * Index Page for this controller.
 	 *
 	 * Maps to the following URL
@@ -31,6 +31,8 @@ class GetData extends CI_Controller {
 	 */
 	public function index()
 	{
+        $this->load->model('db_model');
+
 	    $log = new Logger();
         $log->cli_log('Start get data in http://www.mocky.io/v2/5a74519d2d0000430bfe0fa0');
 	    $provider1 = new ApiProvider('http://www.mocky.io/v2/5a74519d2d0000430bfe0fa0', 'symbol', 'amount');
@@ -46,7 +48,9 @@ class GetData extends CI_Controller {
 
         $log->cli_log('Start Comparison Datas');
         $comparedData = $convertProvider2->comparisonData($amaount1,$amaount2);
-        $log->cli_log('End Comparison Datas');
+        $comparedData['CreateDate'] = date('Y-m-d H:i:s');
 
+        $log->cli_log('End Comparison Datas');
+        $this->db_model->insert($comparedData);
 	}
 }
